@@ -23,7 +23,7 @@ TextButton.Text = "CheckKey"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 14.000
 TextButton.MouseButton1Click:connect(function ()
-if Input.Text == "15542035549" then
+if Input.Text == "kesds1" then
 	Frame.Visible = ScreenGui
 	
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitSquad/Dead.ware.lua/main/Dead.ware.lua"))()
