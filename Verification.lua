@@ -26,7 +26,7 @@ TextButton.MouseButton1Click:connect(function ()
 if Input.Text == "kesds1" then
 	Frame.Visible = ScreenGui
 	
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitSquad/Dead.ware.lua/main/Dead.ware.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitSquad/ChromaWare/main/ChromaWare"))()
     end
 end)
 
