@@ -23,7 +23,7 @@ TextButton.Text = "CheckKey"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 14.000
 TextButton.MouseButton1Click:connect(function ()
-if Input.Text == "kesds1" then
+if Input.Text == "I.CNr^Pg2eU@(b3qQT5W" then
 	Frame.Visible = false
 	
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitSquad/ChromaWare/main/ChromaWare"))()
